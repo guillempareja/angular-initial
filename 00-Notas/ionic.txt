@@ -1,0 +1,11 @@
+//Crear nueva app
+ionic start nombreApp
+
+//Iniciar servidor
+ionic serve -o
+
+//Crear servicio
+ionic g s service/deseos
+
+//Crear página
+ionic g page pages/agregar

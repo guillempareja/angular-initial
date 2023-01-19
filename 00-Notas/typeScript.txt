@@ -1,0 +1,11 @@
+//Compilar 1 fichero concreto
+ts app.ts
+
+//Compilar siempre
+tsc -w
+
+//Crear fichero de  configuración de typeScript
+ts --init
+
+//Iniciar server
+npm start

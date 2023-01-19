@@ -1,0 +1,37 @@
+//Nuevo proyecto
+ng new nombreProyecto
+
+//Live serve
+ng serve -o
+
+//Nuevo componente
+ng g c components/footer
+	ng g c components/home --skipTests=true(sin test) -is(sin estilos)
+	ng g c components/home --skipTests -is
+
+//Nuevo pipe
+ng g p pipes/capitalizado
+
+//Nuevo
+ng g s services/spotify --skipTests=true  (servicio)
+ng g guard guards/auth  (guard)
+
+// Generar componente sin crear nueva carpeta
+ng g c components/usuario/usuarioNuevo --flat 
+
+// Generar modulo de rutas
+ng g m appRouting --flat
+
+// Generar componente y que apunte a un módulo concreto
+ ng g c components/mapa --module=app.module
+
+//ciclo de vida (onInit, onChange, etc...)
+buscar en la docu 'lifecycle hooks'
+
+//Instalar librerias
+npm install bootstrap --save
+npm install jquery --save
+npm install popper.js --save
+
+//Producción
+ng build --prod

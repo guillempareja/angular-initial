@@ -1,0 +1,20 @@
+//Formatear proyecto INTENT TABS
+
+**Instalar prittier
+npm i prettier
+
+**poner esta linea en 'package.json' dentro de la propiedad objeto 'scripts'
+"pretty": "prettier --write \"**/*.{js,jsx,json,css,scss,html,ts}\"",
+
+
+**Ejecutar script
+** Antes de ejecutar:
+
+	Preferences-Prittier
+	- Quitar la opción de detectar Intent automàtico del IDE
+	- Marcar indent TAB | 4spaces | no tailing comma | no usar editconfig
+
+	- Editar edit config
+
+	- Editar tslin.json acceptar 'tabs'
+npm run pretty
